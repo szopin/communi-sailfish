@@ -1,5 +1,6 @@
 TEMPLATE = subdirs
 SUBDIRS += src
+include(global.pri)
 
 !no_submodules {
     !exists(src/shared/shared.pri)|!exists(src/backend/src/src.pro)): \
