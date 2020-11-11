@@ -174,6 +174,7 @@ Page {
                             text: qsTr("Copy")
                             onClicked: Clipboard.text = plaintext
                         }
+
                         MenuItem {
                             text: qsTr("Reply")
                             visible: !model.own && !model.event && buffer.channel
