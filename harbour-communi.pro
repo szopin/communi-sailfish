@@ -7,7 +7,7 @@ include(global.pri)
         error(A Git submodule is missing. Run \'git submodule update --init\' in the project root.)
 }
 
-OTHER_FILES += \
+DIST_FILES += \
     qml/*.qml \
     qml/cover/*.qml \
     qml/dialogs/*.qml \
@@ -15,5 +15,4 @@ OTHER_FILES += \
     qml/view/*.qml \
     rpm/harbour-communi.spec \
     src/app/harbour-communi.desktop \
-    src/app/harbour-communi.png \
-    README.md
+    src/app/harbour-communi.png 
